@@ -20,6 +20,8 @@ pip install -r requirements.txt
 
 # Установите Node зависимости (в нашем случае уже не нужно, есть static)
 cd frontend
+npm install react-d3-cloud
+npm install recharts
 npm install
 npm run build
 cd ..
